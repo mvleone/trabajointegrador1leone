@@ -4,23 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="./estilo.css"
-    <title>Leone Salud</title>
+    <link type="text/css" rel="stylesheet" href="css/estilo.css">
+    <link type="text/css" rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+    <title> Leone Salud</title>
 </head>
 <body>
-    <header>Leone Salud <img src="./img/lion-doodle 30 percento.jpg"> 
-    <nav> <a href="nosotros.html" target="_blank">Nosotros </a> <a href="productos.html" target="_blank">Productos</a> <a href="registro.html" target="_blank">Registro</a><a href="mi-cuenta.html" target="_blank">Mi cuenta</a> <a href="contacto.html" target="_blank">Contacto</a> 
-    </nav>
+    <header class="row"> 
+        <div class="col-4"><h1 class="titulo"> Leone Salud </h1> 
+        <img src="img/154-175px-leon.jpg" class="img-fluid"> </div>
+        <nav class="col-8">    
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registro.html">Registro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mi-cuenta.html">Mi cuenta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+          </ul> </nav>
     </header>
-    <div><h1>Nosotros</h1>
-    <ul><li>Quienes somos</li><li>Misión</li><li>Visión</li></ul></div>
-    <div><h2>Productos</h2></div>
-    <ol><li>Curación de heridas<img src="./img/cura_heridas-300x201.jpg" alt="curacion de heridas"  title="curacion de heridas" ></li>
-        <li>Higiene hospitalaria<img src="./img/Higiene hospitalaria.jpg" alt="Higiene hospitalaria"  title="Higiene hospitalaria" ></li>
-        <li>Higiene ambulatoria<img src="./img/higiene ambulatoria.jpg" alt="Higiene ambulatoria"  title="Higiene ambulatoria" ></li></ol>
-    <p><hr />La emergencia de gérmenes multirresistentes se esta convirtiendo cada vez más en un problema cotidiano. 
-    <hr /> En Leone Salud facilitamos kits de limpieza diseñados por nuestros especialistas en control de infecciones quienes ademas dan instrucciones <strong>confiables, sencillas y fácilmente aplicables.</strong> 
+    
+    <div><img src="img/neutrofilos.jpeg" class="img-fluid"> </div>
+    <div class="row">
+        <div class="col-12">    <h1>Nosotros</h1>
+        <li>Quienes somos</li><li>Misión</li><li>Visión</li>
+        </div>
+    </div>
+    <div class="row"><h2>Productos</h2>
+        <div class="col-sm-4 mb-3 mb-sm-0">
+        <div class="card">
+            <img src="img/cura_heridas-300x201.jpg" class="card-img-top" alt="curacion de heridas">
+          
+            <div class="card-body">
+              <h5 class="card-title">Curación de heridas</h5>
+              <p class="card-text">Todo lo que sus pacientes necesitan para la curación de <strong>cualquier tipo de heridas</strong></p>
+              <a href="productos.html" class="btn btn-primary">Ver productos</a>
+            </div>
+          </div></div>
+          <div class="col-sm-4 mb-3 mb-sm-0"> 
+          <div class="card">
+            <img src="img/higiene-ambulatoria.jpg" class="card-img-top" alt="higiene ambulatoria">
+                        <div class="card-body">
+              <h5 class="card-title">Higiene ambulatoria</h5>
+              <p class="card-text">En Leone Salud facilitamos kits de limpieza diseñados por nuestros especialistas en control de infecciones quienes ademas dan instrucciones <strong>confiables, sencillas y fácilmente aplicables.</strong>               <a href="productos.html" class="btn btn-primary">Ver productos</a>
+            </div>
+          </div></div> 
+          <div class="col-sm-4 mb-3 mb-sm-0"> 
+          <div class="card">
+            <img src="img/Higiene-hospitalaria.jpg" class="card-img-top" alt="Higiene hospitalaria">
+          
+            <div class="card-body">
+              <h5 class="card-title">Higiene hospitalaria</h5>
+              <p class="card-text">La emergencia de gérmenes multirresistentes es un problema que te podemos ayudar a prevenir</p>
+              <a href="productos.html" class="btn btn-primary">Ver productos</a>
+            </div>
+          </div> </div>
+    
     <hr /> En Leone Salud, nuestro desvelo es que <em>la atención de los pacientes sea una instancia segura y agradable para el paciente y profesionales de la salud </em></p>
+    
     <div><h3>Contacto</h3></div>
     
     </body>

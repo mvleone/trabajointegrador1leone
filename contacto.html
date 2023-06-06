@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
     <title>Contacto</title>
 </head>
 <body>
-    <label> Nombre </label> 
-      <input type="text">
-      <label> Apellido </label> 
-      <input type="text">
-      <label> DNI </label> 
-      <input type="number">
-      <label> Mail </label> 
-      <input type="email">
-      <label> Teléfono </label> 
-      <input type="number">
+    <section class="row">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Apellido">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Mail</label>
+            <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Mail">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Telefono</label>
+            <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="Telefono">
+          </div>
       <textarea> Dejanos tu mensaje </textarea>
-      <button type="submit">Enviar</button>
+      <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
+    </section>
 </body>
 </html>
